@@ -1,0 +1,128 @@
+1.Introduction
+1)Purpose
+The purpose of this product is to bring together all the hospitals, doctors, staffs, patients and other
+respective parties related to medical care under a single system to facilitate interlinking between different
+parties and to facilitate more efficient and effective service to consumers. The application aims to
+maintain a global database of all parties to provide better service. The application is being developed
+taking into consideration the consumers who through this system will have more options to access and
+hospitals who can manage their daily needs efficiently.
+2)Product Scope
+The scope of the application is as follows:
+1) Maintaining a global database of all concerned Medicare parties.
+2)Developing the Hospital Management System application.
+3)Application will allow all concerned parties to access database and to choose services accordingly.
+4)Application of the software is mentioned as under:
+a) Present a login interface through which parties can access services making
+decisions based on available database.
+b) Admin access to maintain and modify database. 3)References
+www.wikipedia.org
+https://10.5.18.110/moodle/pluginfile.php?file=%2F10706%2Fmod_resource%2Fcontent
+%2F1%2FSRS_EXAMPLE2.pdf
+2.Overall Description
+1)Product Functions
+1)Maintain a database of all hospitals, doctors/medical experts, staff and patients.
+2)Present a login interface.
+3)User can login as patient, doctor (or)specialised medical expert, staff or as admin or can register with
+system as first timer.
+4)Each party will be able to access their profiles and choose services/ modify the database according to
+access level given to them.
+5)Product also provides specific cloud storage for parties to store data and payment interface for money
+transactions between parties.
+2)Operating Environment
+The software is developed for the Windows Operating System platform and also Linux based operating
+systems. It will run on any Linux based OS. and on Windows 7 and after based Windows OS. The
+software also coexists with Paytm and Google Wallet for cash transactions and Dropbox for cloud
+storage.
+3)Design and Implementation Constraints
+There will be two major constraints in developing this product:
+1) Interfacing with Google Wallet and Dropbox.
+2)Making real time updates to the database and allowing access at the same time.
+3)Number of users accessing the online database at the same time might affect database updating speed.
+4)Memory requirement should not be high.
+4)Assumptions and Dependencies
+It is assumed that the Unix system used for building the software should be compatible with components
+of the software. It is assumed that products Google Wallet, Paytm, Dropbox and SQL work free of bugs
+3.External Interface Requirements
+1)User Interfaces
+Login screens with interactive GUI for better experience with icons, buttons and clear fonts. If database
+is accessed, it is displayed in tabulated and formatted form.
+2)Hardware Interfaces
+Windows/Mac/Linux personal computers/laptops with I3 or above processors (1.7 GHZ and above
+speed) with monitor and mouse/touch input and other common hardware peripherals and minimum 2 GB
+RAM.
+3)Communication Interfaces
+Internet protocols like FTP and HTTP will be used for downloading medical reports and bills and also to
+send updates made to database to global server. There is no specific browser required as application will
+directly use network connection like a browser to download data.
+4.Functional Requirements
+1)Global healthcare database
+First maintain a global database of all hospitals, doctors, healthcare experts, staff and workers and patients
+on a server which will be accessed in suitable form whenever the application is run. Updates to the database
+will be reflected in the application every 30 seconds. Updates to the database are performed by parties
+concerned and the database managers/admin.
+2)Login Interface
+After access to the database has been established, a login interface is shown with login options as follows:
+1)Login
+2)Sign Up
+If signup is chosen, party(hospital/patient/doctor/staff) registers with database.
+If login is chosen, new screen is shown.
+1)Patient
+2)Doctor
+3)Staff
+4) Hospital
+5)Specialised medical expert
+6) Admin
+7) Exit.
+Choice is accepted and separate screens are displayed for respective party. a)
+Patient features
+Patient is allowed to view his own profile, download medical report or bill, change profile details, to
+choose doctor (if first time), to change doctor within same hospital or go to different hospital (only by
+notifying the doctor first and paying dues). Patient is allowed to pay money to hospital through Google
+Wallet/Paytm through the application. No patient is allowed to view the other's profile. b) Doctor
+features
+Doctor is allowed to view the patients under him/her, add or remove patients as necessary and prescribe
+treatments and medication for patients under him/her. Doctor receives payment from hospital through
+application using Paytm/Google Wallet.
+b) Staff features
+Staff can be categorized according to specialty as nurse, receptionist and so on and will be allowed access
+levels to hospital inventory/ accounts according to occupation. Staff can receive salaries through Google
+Wallet/Paytm. According to occupation, staff can either accept payment from patient, assign doctors to
+patients, place orders for inventory, access inventory and other features based on occupation. c)
+Specialised Medical Experts
+They have almost similar features as that of doctors, but only difference is that they will not be affiliated to
+any one hospital. They receive payments through Paytm/Google Wallet via application
+d) Admin features
+Admin access is only for the software developers and the people managing the database. They can make
+changes only to the database like adding new parties and removing new parties. They cannot access sensitive
+details of a party such as password, date of birth, account number and et al.
+e) Hospital features
+Each hospital can access its own localised database containing list of doctors, employees, patients and
+medical experts currently providing services in the hospital's name. Hospital access is given to the owner of
+the hospital with unique ID and password. Approved users can change the localised database without
+accessing sensitive details.
+5.Nonfunctional Requirements
+1)Performance Requirements
+The primary performance requirement is speed of internet network so that updates to database done
+elsewhere are accessible in real time. In case of large number of users accessing the database at once, the
+speed at which updates are refreshed might go down due to traffic.
+2)Software Quality Attributes
+a) Availability:
+The users should be able to download the software or get access to the cd if they have basic internet
+connection or nearby store sells cd. b) Reliability:
+The software is reliable and unforeseen calamities like power shortage or system crash will not do
+harm to your profile or undergoing cash transactions. They will simply be put on hold. c) Portability:
+The software is basically built for home computers but if it is used on laptop it is portable. d)
+Maintainability:
+Software updates will be made available every month to maintain smooth running. e)
+Security:
+The system is highly secure. All confidential information of user in their accounts are hidden from
+other parties up to required extent. f) Modifiability:
+Application is not open source and hence cannot be modified without developer consent.
+g) Safety requirements:
+There are no safety requirements with this application. In case of device hazards, data flow is stopped
+and reverted to previous safe state hence not corrupted or compromised. h) Flexibility:
+Application is easily modifiable by developer to maintain and update with changing environment.
+6.Other Requirements
+User interface should be effective and interactive and appealing for maximum effect. Software should be
+approved for use in respective area without violating any rules and regulations of Copy Right Act and
+existing patents in the country in which it is used.
